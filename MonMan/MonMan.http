@@ -1,0 +1,18 @@
+﻿@MonMan_HostAddress = https://localhost:5001
+
+GET {{MonMan_HostAddress}}/welp/result
+
+###
+
+PUT {{MonMan_HostAddress}}/transaction/topup
+Content-Type: application/json
+
+{
+    "Value": 15,
+    "AccountId": 1
+}
+###
+
+GET {{MonMan_HostAddress}}/transaction/getpage?accountId=1
+
+###
