@@ -19,5 +19,6 @@ namespace MonMan.Data
         }
 
         public DbSet<Transaction> Transactions { get; set; } = null!;
+        public DbSet<TransactionAccount> Accounts { get; set; } = null!;
     }
 }

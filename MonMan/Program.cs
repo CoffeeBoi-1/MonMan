@@ -14,5 +14,6 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 var app = builder.Build();
 
 app.RegisterTransactionEndpoint();
+app.RegisterAccountEndpoint();
 
 app.Run();

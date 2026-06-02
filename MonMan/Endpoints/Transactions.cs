@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MonMan.Data;
-using MonMan.DTO;
+using DTOLibrary;
 using MonMan.Models;
 using System.ComponentModel.DataAnnotations;
 

@@ -1,4 +1,4 @@
-﻿namespace MonMan.DTO
+﻿namespace DTOLibrary
 {
     public class TransactionDTO
     {
